@@ -14,7 +14,7 @@ function maxIndex(numeros) {
         }
     })
 
-    return maxInder
+    return maxIndexNumero
 }
 
 console.log(maxIndex([1, 3, 2])) // 1
