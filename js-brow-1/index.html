@@ -9,15 +9,21 @@
 </head>
 
 <body>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+
     <label for="texto">Escribe algo:</label>
     <input type="text" id="texto">
-    <button class="btn">Convertir mensaje a mayusculas</button>
+    <button class="btn">Convertir mensaje a mayúsculas</button>
 
     <!-- resultado tal cual se escribe en el navegador -->
     <p id="resultado"></p>
 
     <!-- Resultado en mayusculas -->
-    <p id="resultadoMayusculas"></p>
+    <p class="hide" id="resultadoMayusculas"></p>
 
     <script src="app.js"></script>
 
